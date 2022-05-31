@@ -1,0 +1,144 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Siyuan Wu, 吴思远
+title: Ph.D. Student at University of Macau
+email: asuka.wsy@connect.umac.mo 
+website: https://asuka541.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# github_username:  sproogen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Google Scholar
+  icon: fa fa-google
+  url: https://scholar.google.com/citations?user=aobtaaUAAAAJ
+# - title: DBLP
+#   icon: fa fa-external-link
+#   url: https://scholar.google.com/citations?user=aobtaaUAAAAJ
+
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I am a Ph.D. student in Computer Science at State Key Laboratory of Internet of Things for Smart City (SKL-IOTSC), University of Macau. I received my Bachelor degree in Shanghai University, 2015 and Master degree in University of Macau, 2018. My supervisor is Leong hou U from 2015. My research interests consist of graph mining, machine learning and stable marriage problem.
+
+content:
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Conference Proceedings
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          **Tracking the Evolution: Discovering and Visualizing the Evolution of Literature** <mark>DASFAA'22</mark> 
+          
+          Siyuan Wu, Leong Hou U
+            
+          *Database Systems for Advanced Applications, Virtual Event, April, 2022* <mark>SIGMOD'18</mark>  
+
+          **Pistis: A conflict of interest declaration and detection system for peer review management**
+          
+          Siyuan Wu, Leong Hou U, Sourav S Bhowmick, Wolfgang Gatterbauer
+            
+          *Proceedings of the 2018 International Conference on Management of Data, Houston, USA, June, 2018* 
+
+          **Conflict of interest declaration and detection system in heterogeneous networks**  <mark>CIKM'17</mark>
+          
+          Siyuan Wu, Leong Hou U, Sourav S Bhowmick, Wolfgang Gatterbauer
+            
+          *Proceedings of the 2017 ACM on Conference on Information and Knowledge Management, Singapore, November, 2017*
+
+      # - layout: left
+      #   title: Journals
+      #   # link: boringcompany.com
+      #   # link_text: boringcompany.com
+      #   # sub_title: Senior Network System Administrator
+      #   # caption: November 2017 - Present
+      #   # quote: >
+      #   #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+      #   description: | # this will include new lines to allow paragraphs
+            
+
+  - title: Projects # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+    
+        - **PISTIS system**. A Conflict of Interest Declaration and Detection System for Peer Review Management. 
+          
+        - The **data collection tool** of MACAO AI CHALLENGE 2019 (Co-located with IJCAI-19)
+
+
+  - title: Teaching Asisstant # Title for the section
+    layout: text # Type of content section (list/text)
+    content: | # this will include new lines to allow paragraphs
+        
+        + CISG114 Web Technology and Life *2016, 1st semester, University of Macau* 
+          
+        + CISG111 Computing in Modern Society *2017, 1st semester, University of Macau* 
+
+  - title: Additional Activities # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Helper
+        # caption: 2010 - 2013
+        # sub_title: BSc Computer Science
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          + ICDE'19 *Macau,China*
+
+          + IJCAI'19 *Macau,China*
+ 
+          + PAKDD'19 *Macau,China*
+ 
+          + The 2021/2022 ICPC Asia Macau Regional Contest *Macau,China*
+
+  
+# Footer
+footer_show_references: false
+# references_title: Powered by Jekyll with Mordern Resume Theme. 
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
